@@ -1,0 +1,153 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-header {
+    margin: 44px 0 144px 76px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+
+} 
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 515px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    text-align: justify;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #ADFF00;
+    border: none;
+    cursor: pointer;
+    filter: box-shadow 0px 4px 4px 0px #00000040;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+
+    color: #000000;
+
+    @media (max-width: 480px) {
+        header {
+            margin: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-header }
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+        .link-header {
+            font-size: 18px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+    
+        .button-header {
+            width: 80px;
+            height: 30px;
+            font-size: 18px;
+        }
+    
+        .logo-image {
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+        }
+    
+        section {
+            margin: 20px;
+            width: 100%;
+            text-align: center;
+        }
+    
+        h1 {
+            font-size: 40px;
+            line-height: 48px;
+        }
+    
+        h2 {
+            font-size: 28px;
+            line-height: 34px;
+        }
+    
+        p {
+            font-size: 16px;
+            line-height: 20px;
+            width: 100%;
+        }
+    
+        .button-main {
+            width: 160px;
+            height: 45px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+}
